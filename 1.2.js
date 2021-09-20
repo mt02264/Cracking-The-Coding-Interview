@@ -4,7 +4,6 @@
 function isPermutation(str1, str2){
     if (str1.length != str2.length) return -1;
     let str1Map = new Map();
-    let str2Map = new Map();
     for (let i of str1){
         str1Map.get(i) ? str1Map.set(i, str1Map.get(i) + 1) : str1Map.set(i, 1);
     }
