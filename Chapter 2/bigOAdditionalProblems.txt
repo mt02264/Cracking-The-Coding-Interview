@@ -1,0 +1,12 @@
+vi.1	O(b)
+vi.2	O(b)
+vi.3	O(1)
+vi.4	O(a/b)
+vi.5	O(logn)
+vi.6	O(sqrt(n))
+vi.7	O(n)
+vi.8	O(n)
+vi.9	O(n^2)
+vi.10	O(logn)
+vi.11	
+vi.12	O(blogb + alogb)
