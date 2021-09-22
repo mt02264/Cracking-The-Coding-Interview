@@ -1,0 +1,18 @@
+7.3 - Jukebox: Design a musical jukebox using object-oriented principles. 
+
+Ans:
+
+    list of songs
+
+    Songs:
+        name: 
+        time:
+        genre:
+        movie:
+
+    Jukebox:
+        song = new Songs[];
+        currentSong = song[i];
+        getNextSong();
+        getCurrentSongDetails();
+

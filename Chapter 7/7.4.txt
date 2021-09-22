@@ -1,0 +1,21 @@
+7.4 - Parking Lot: Design a parking lot using object-oriented principles. 
+
+Ans:
+
+    User:
+        Name:
+        License No:
+        
+    Car:
+        User:
+        Model:
+        Make:
+        Color:
+
+    Sign:
+        details:
+
+    Space:
+        Car:
+        isTaken:
+        isForHandicapped:

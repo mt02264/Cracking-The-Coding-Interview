@@ -1,0 +1,19 @@
+7.1 - Deck of Cards: Design the data structures for a generic deck of cards. Explain how you would 
+subclass the data structures to implement blackjack. 
+
+Ans: 
+        generic deck of cards has following properties
+
+        class Cards(){
+            name : 1 - 52,
+            suit : spades - diamonds - hearts - queen - clubs
+        }
+        class Deck (){
+            constructor(){
+                this.cardsList = [];
+                // loop over 52 to add 52 cards with their values in the list
+            }
+            getDeck(){
+                return this.cardsList;
+            }
+        }
