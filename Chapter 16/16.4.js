@@ -16,7 +16,7 @@ function didIWin(grid, map){
     let player = grid[map[0][0]][map[0][1]];
     console.log(map, player)
     for (let i of map){
-        if (grid[i[0]][i[1]] != player)
+        if (grid[i[0]][i[1]] != player && player != "")
             return false;
     }
     return true;
